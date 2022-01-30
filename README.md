@@ -75,7 +75,8 @@ blogdataoutput2 = glueContext.write_dynamic_frame.from_options(frame=df2,
 ```
 # solution diagram
 the overall solution has glue crawler and glue catalog involved. the solution diagram is show as below:
-![image](https://user-images.githubusercontent.com/97269758/151690347-32f499a0-df21-4b4c-a758-ff3b77b43c47.png)
+![image](https://user-images.githubusercontent.com/97269758/151690380-6616c81c-a19a-4da5-953f-04f27033a754.png)
+
 
 
 
