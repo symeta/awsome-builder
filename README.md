@@ -1,7 +1,37 @@
-# serverless data platform prototype - awsome builder
+# complicated raw json struct transformation process
  
-## introduction
-I choose serverlesss data platform to be my awsome buildr topic. the prototying system consists of 3 portions, namely the batch processing system, the real-time processing system and the data-mining (leveraging on machine learning) system. this blog archives the prototyping system using 5 demos: 1. the data uploading from on-prem to aws region; 2. the complicated raw json struct transformation process; 3. the incremental data ETL process; 4. the real-time data analysis process; 5. the clustering analysis of the target table. the architecture diagram is shown is below:
+## description
+the targeted json is an embedded struct json. the objective of the transformation process is to flatten the struct, make it ready for the downstreaming realatinal dabase sql query.
+the struct of the json is shown as below:
+```
+{cm: 
+ {
+	ln: string,
+	sv: string,
+	os: string,
+	g: string,
+	mid: string,
+	nw: string,
+	l: string,
+	vc: string,
+	hw: string
+ },	
+ ap: string,
+ et:
+ 	[
+ 		ett: string,
+ 		en: string,
+ 		kv:
+ 		{
+ 			goodsid: string,
+ 			action: string,
+ 			extend1: string,
+ 			place: string,
+ 			category: string,
+ 			entry: string
+ 		}
+ 	]
+}
+```
 
-![image](https://user-images.githubusercontent.com/97269758/151689498-0cbc5b01-c65e-4cf6-91a8-7d7e846a6a21.png)
 
