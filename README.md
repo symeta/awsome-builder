@@ -8,6 +8,8 @@ this blog describes a prototype of using step function to orchestrate the data p
 ## solution diagram
 ![image](https://user-images.githubusercontent.com/97269758/151703845-c66e9052-5dd4-4afd-9098-e6b8782efbb8.png)
 
+![Screen Shot 2022-01-30 at 10 35 37 PM](https://user-images.githubusercontent.com/97269758/151704164-6159da51-4903-4edd-b00d-38e20fc1dc03.png)
+
 ## code
 lambda function 1 (the one to start crawler)
 ```
