@@ -43,4 +43,4 @@ athena sql query sample
     "OutputLocation": "s3://ab23-incremental-athena/"
   }
 ```
-*pay attention to \", which is a special keyword.*
+*pay attention to '\"', which is a special keyword.*
