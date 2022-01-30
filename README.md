@@ -26,5 +26,6 @@ Please refer to the below link for further setup guidance:
 https://docs.aws.amazon.com/firehose/latest/dev/writing-with-kinesis-streams.html
 
 the solution diagram is shown as below:
-![image](https://user-images.githubusercontent.com/97269758/151689784-262ba700-cfbc-4399-ad6a-5bd93514a6a9.png)
+![image](https://user-images.githubusercontent.com/97269758/151689857-c107ba41-cc45-4104-a9b1-f14a4e77b895.png)
+
 
