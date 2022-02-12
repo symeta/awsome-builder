@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@symeta 
+symeta
+/
+awsome-builder
+Public
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+awsome-builder/data.py /
+@symeta
+symeta Add files via upload
+Latest commit 28b6380 12 days ago
+ History
+ 1 contributor
+133 lines (106 sloc)  4.5 KB
+   
 import json
 import random
 import string
@@ -122,7 +152,7 @@ def send_data(stream_name, kinesis_client):
     while True:
         data = get_random_record()
         partition_key = str(data["rowkey"])
-        print("-------executing-------")
+        print(data)
         kinesis_client.put_record(
             StreamName=stream_name,
             Data=json.dumps(data),
@@ -131,3 +161,16 @@ def send_data(stream_name, kinesis_client):
 if __name__ == '__main__':
     kinesis_client = boto3.client('kinesis')
     send_data(STREAM_NAME, kinesis_client)
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
