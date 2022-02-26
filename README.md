@@ -4,7 +4,7 @@
 in order to simulate the stream data processing, we need to generate real-time streaming data. the code below randomly generate json format records. the sample record is like below:
 ```json
 {
- 'rowkey': '601642222859', 
+ "rowkey": "601642222859", 
  'name': 'Nwyfr', 
  'age': '41', 
  'sex': 'woman', 
