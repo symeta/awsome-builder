@@ -3,7 +3,7 @@
 ## description
 the targeted json is an embedded struct json. the objective of the transformation process is to flatten the struct, make it ready for the downstreaming realatinal dabase sql query.
 the struct of the json is shown as below:
-```
+```json
 {cm: 
  {
 	ln: string,
@@ -32,11 +32,11 @@ the struct of the json is shown as below:
  		}
  	]
 }
-```json
+```
 
 ## solution
 apply relationalize function of spark dataframe to achieve the data flattening. the sample code is as below:
-```
+```python
 import sys
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
