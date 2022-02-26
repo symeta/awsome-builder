@@ -73,7 +73,7 @@ blogdataoutput2 = glueContext.write_dynamic_frame.from_options(frame=df2,
 	connection_type = "s3", 
 	connection_options = {"path": glue_relationalize_output_s3_path2}, 
 	format = "json", transformation_ctx = "event-detail")
-```Python
+```
 *the code file named json-flatten.py can be achieved by downloading from the blog.*
 ## solution diagram
 the overall solution has glue crawler and glue catalog involved. the solution diagram is show as below:
