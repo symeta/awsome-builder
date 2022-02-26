@@ -5,16 +5,16 @@ in order to simulate the stream data processing, we need to generate real-time s
 ```json
 {
  "rowkey": "601642222859", 
- 'name': 'Nwyfr', 
- 'age': '41', 
- 'sex': 'woman', 
- 'goods_no': '230121', 
- 'goods_price': '259.55', 
- 'store_id': '313019', 
- 'goods_type': 'buy', 
- 'tel': '13123468175', 
- 'email': 'zSiAwZuJCN@163.com', 
- 'buy_time': '2019-06-06'
+ "name": "Nwyfr", 
+ "age": "41", 
+ "sex": "woman", 
+ "goods_no": "230121", 
+ "goods_price": "259.55", 
+ "store_id": "313019", 
+ "goods_type": "buy", 
+ "tel": "13123468175", 
+ "email": "zSiAwZuJCN@163.com", 
+ "buy_time": "2019-06-06"
 }
 ```
 
