@@ -11,5 +11,6 @@ I choose serverlesss data platform to be my awsome buildr topic. the prototying 
 the architecture diagram is shown is below:
 ![image](https://user-images.githubusercontent.com/97269758/151699229-59a3d842-41b9-4ba4-b244-b5d5d40d904b.png)
 
-![Screen Shot 2022-03-20 at 8 04 16 PM](https://user-images.githubusercontent.com/97269758/159161326-a991cc2a-54c6-419b-9918-37d18bede600.png)
+![image](https://user-images.githubusercontent.com/97269758/159161376-5d126bc9-0866-4688-b46d-abd1699235ca.png)
+
 
