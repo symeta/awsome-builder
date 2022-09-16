@@ -12,7 +12,7 @@ this blog describes a prototype of using step function to orchestrate the data p
 
 ## code
 lambda function 1 (the one to start crawler)
-```
+```python
 import json
 import boto3
 
@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     glueclient.start_crawler(Name=target)
 ```
 lambda function 2 (the one to get crawler state)
-```
+```py
 import json
 import boto3
 
@@ -35,7 +35,7 @@ def lambda_handler(event, context):
     }
 ```
 athena sql query sample
-```
+```sql
 {
   "QueryString": "create table \"ab23-incremental\".\"dws_activeuser\" as select distinct uid,action,ar,ba,detail,en,entry,extend1,g,hw,l,la,ln,loading_time,md,mid,nw,open_ad_type from \"ab23-incremental\".\"incremental_ab23_incremental\"",
   "WorkGroup": "primary",
