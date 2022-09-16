@@ -1,7 +1,7 @@
 # sagemaker gets data from athena
 
 ## code
-```
+```py
 import boto3
 
 client = boto3.client('athena')
